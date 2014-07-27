@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="roboguice-sherlock-1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rtyley/roboguice-sherlock/1.4/4254a65664ba4472afcde863ecb2147f9752fcb/roboguice-sherlock-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rtyley/roboguice-sherlock/1.4/861fcf2cf3559d7d57a7fce3b7c284441f329458/roboguice-sherlock-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

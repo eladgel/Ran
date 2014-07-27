@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Battery App</string>
+    <string name="about_menu_name">About</string>
+    <string name="about_message">© 2012 Dan-Tech Energy GmbH\nhttp://www.danenergy.com\nAuthor: Lukas Eipert\nUses code by the Android Open Source Project which was licensed under the Apache License, Version 2.0. You can find a copy of that license if you click \"Show license\". Please note that this application is not licensed under the Apache License.</string>
+    <string name="show_license">Show license</string>
+    <string name="unit_km">Kilometer per hour</string>
+    <string name="unit_miles">Miles per hour</string>
+    <string name="setting_unit">Measurement Unit</string>
+
+    <!-- BluetoothChat -->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled">Bluetooth was not enabled. You need to enable Bluetooth in order to connect to the battery.</string>
+    <string name="try_again_to_connect">You are not connected. Please restart the App and try again. </string>
+    
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string><string name="close_app">Do you want to close the App?</string>
+    
+
+    <!-- ImageView Descriptions -->
+    <string name="BGDescription">Blue Fading background</string>
+    <string name="ButtonMBG">Pentagon Middle</string>
+    <string name="ButtonOBG">Pentagon Top</string>
+    <string name="ButtonLBG">Pentagon Left</string>
+    <string name="ButtonRBG">Pentagon Right</string>
+    <string name="ButtonLUBG">Pentagon Left Bottom</string>
+    <string name="ButtonRUBG">Pentagon Right Bottom</string>
+    <string name="BluetoothStatus">BluetoothStatus</string>
+    <string name="CloseAppButton">CloseAppButton</string>
+    <string name="liqbat">Battery Pictures</string>
+    <string name="PleaseConnect">Please\nConnect</string>
+    <string name="Bier">Phone</string>
+
+</resources>

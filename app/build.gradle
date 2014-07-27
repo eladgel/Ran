@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.danbt"
+        minSdkVersion 9
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+//repositories {
+//    mavenCentral()
+//    maven {
+//        url "https://repository-achartengine.forge.cloudbees.com/snapshot/"
+//    }
+//}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    compile 'org.kevoree.corelibrary.android:org.kevoree.library.android.agrapher:2.0.5'
+//    compile 'com.android.support:appcompat-v7:19.+'
+//    compile group: 'com.google.guava', name: 'guava', version: '12.0'
+    compile 'com.github.rtyley:roboguice-sherlock:1.4'
+    compile 'com.android.support:support-v4:20.+'
+}
